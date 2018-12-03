@@ -12,6 +12,7 @@ const seasonConfig = {
    winter: {
      text: "Burr, it's chilly",
      iconName: "snowflake"
+  
    }
 }
 
