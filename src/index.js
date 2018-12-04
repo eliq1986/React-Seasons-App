@@ -12,6 +12,7 @@ class App extends Component {
      error: ""
    }
 
+//request users location 
 componentDidMount() {
   window.navigator.geolocation.getCurrentPosition(
     (position)=> this.setState({lat: position.coords.latitude}),

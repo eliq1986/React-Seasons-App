@@ -1,6 +1,8 @@
 import './Spinner.css';
 import React from 'react';
 
+
+//loading icon via semantic ui 
 const Spinner = () => {
   return (
     <div class="ui segment loading-screen">
